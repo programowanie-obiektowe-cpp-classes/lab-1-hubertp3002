@@ -1,4 +1,4 @@
-#include <print>
+
 
 class Wektor2D
 {
@@ -8,7 +8,7 @@ public:
         X = 0;
         Y = 0;
         
-        std::println("Konstruktor"); 
+  
     
     
     }
@@ -26,13 +26,13 @@ public:
     double getX()
     {
 
-        std::println("X = {}", X);
+
         return X;
     }
 
     double getY()
     {
-        std::println("Y = {}", Y);
+
         return Y;
     }
 
@@ -51,7 +51,7 @@ double operator*(Wektor2D w1, Wektor2D w2)
 
     z = w1.X * w2.X + w1.Y * w2.Y;
 
-    std::println("skalar = {}", z);
+
 
     return z;
 };
